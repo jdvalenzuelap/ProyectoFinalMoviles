@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_create_account.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_create_recipe.xml" value="0.264" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_login.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_my_recipes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_password_change.xml" value="0.264" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_profile.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_public_recipe.xml" value="0.4" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_public_user.xml" value="0.4" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_recipe.xml" value="0.264" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_recipe_actions.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_search.xml" value="0.25317028985507245" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_search_recipes.xml" value="0.25317028985507245" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/activity_user_profile.xml" value="0.264" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/fragment_account.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/fragment_home.xml" value="0.23854166666666668" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/fragment_search.xml" value="0.264" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/layout/reciperow.xml" value="0.536" />
+        <entry key="..\:/Users/Alejandro/Documents/Uni_7mo_Sem/AppsMoviles/ProyectoFinal/ProyectoFinal/app/src/main/res/menu/nav_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/ProyectoMoviles/app/src/main/res/layout/activity_following.xml" value="0.346875" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/ProyectoMoviles/app/src/main/res/layout/activity_home.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/ProyectoMoviles/app/src/main/res/layout/activity_profile.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/ProyectoMoviles/app/src/main/res/layout/activity_public_recipe.xml" value="0.34739583333333335" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/ProyectoMoviles/app/src/main/res/layout/activity_public_user.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/ProyectoMoviles/app/src/main/res/layout/activity_user_like.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/ProyectoMoviles/app/src/main/res/layout/activity_user_profile.xml" value="0.4041666666666667" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/ProyectoMoviles/app/src/main/res/layout/reciperow.xml" value="0.2984375" />
+        <entry key="..\:/Users/jd_va/OneDrive - Instituto Tecnologico y de Estudios Superiores de Monterrey/7mo semestre/Moviles/ProyectoFinal/respaldo/app/src/main/res/layout/activity_following.xml" value="0.425" />
+        <entry key="app/src/main/res/layout/activity_create_account.xml" value="0.4904891304347826" />
+        <entry key="app/src/main/res/layout/activity_create_recipe.xml" value="0.2140625" />
+        <entry key="app/src/main/res/layout/activity_home.xml" value="0.25250978698174964" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.4904891304347826" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.4031609208097798" />
+        <entry key="app/src/main/res/layout/activity_name_change.xml" value="0.36186594202898553" />
+        <entry key="app/src/main/res/layout/activity_password_change.xml" value="0.36186594202898553" />
+        <entry key="app/src/main/res/layout/activity_picture_change.xml" value="0.32508629664483113" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.27939120704075077" />
+        <entry key="app/src/main/res/layout/activity_public_recipe.xml" value="0.29791666666666666" />
+        <entry key="app/src/main/res/layout/activity_recipe.xml" value="0.3151041666666667" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.12395833333333334" />
+        <entry key="app/src/main/res/layout/fragment_account.xml" value="0.24074074074074073" />
+        <entry key="app/src/main/res/layout/fragment_home.xml" value="0.24074074074074073" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.24074074074074073" />
+        <entry key="app/src/main/res/layout/reciperow.xml" value="0.25364583333333335" />
+        <entry key="app/src/main/res/menu/nav_menu.xml" value="0.24074074074074073" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.4" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

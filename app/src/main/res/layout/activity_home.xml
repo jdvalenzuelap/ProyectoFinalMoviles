@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <ImageButton
+        android:id="@+id/profileIB"
+        android:layout_width="55dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginBottom="44dp"
+        android:contentDescription="User Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/account_icon" />
+
+    <ImageButton
+        android:id="@+id/searchIB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="48dp"
+        android:layout_marginBottom="44dp"
+        android:contentDescription="Search"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/profileIB"
+        app:srcCompat="@drawable/search_icon" />
+
+    <ImageButton
+        android:id="@+id/logoutIB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="44dp"
+        android:contentDescription="Logout"
+        android:minHeight="48dp"
+        android:onClick="logout"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.256"
+        app:layout_constraintStart_toEndOf="@+id/searchIB"
+        app:srcCompat="?attr/actionModeCloseDrawable" />
+
+    <TextView
+        android:id="@+id/profileTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginBottom="25dp"
+        android:text="User Profile"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/homerecyclerview" />
+
+    <TextView
+        android:id="@+id/seacrhTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        app:layout_constraintStart_toStartOf="@+id/searchIB"
+        app:layout_constraintTop_toBottomOf="@+id/searchIB" />
+
+    <TextView
+        android:id="@+id/logoutTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        app:layout_constraintEnd_toEndOf="@+id/logoutIB"
+        app:layout_constraintTop_toBottomOf="@+id/logoutIB" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/homerecyclerview"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="97dp"
+        app:layout_constraintBottom_toTopOf="@+id/profileTV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

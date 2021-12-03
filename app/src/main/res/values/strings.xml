@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="facebook_app_id">628034331942723</string>
+    <string name="fb_login_protocol_scheme">fb628034331942723</string>
+
+
+    <string-array name="Categories">
+        <item>Breakfast</item>
+        <item>Dessert</item>
+        <item>Meat</item>
+        <item>Pasta</item>
+        <item>SeaFood</item>
+        <item>American</item>
+        <item>Drink</item>
+    </string-array>
+</resources>

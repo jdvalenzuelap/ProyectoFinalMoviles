@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "877326768171",
+    "project_id": "proyectofinalmoviles-e98e6",
+    "storage_bucket": "proyectofinalmoviles-e98e6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877326768171:android:50222df78d921b579df26e",
+        "android_client_info": {
+          "package_name": "com.emilianosloth.proyectofinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877326768171-rvj9pe7pjfken2pv53bbh4jg9bm80hod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCQmteufDjKzR9E4lxN6xHnas5_3ax7UYk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877326768171-rvj9pe7pjfken2pv53bbh4jg9bm80hod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
