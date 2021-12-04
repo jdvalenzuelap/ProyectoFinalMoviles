@@ -37,6 +37,9 @@ class CreateRecipeActivity : AppCompatActivity() {
     lateinit var steps: String
     lateinit var addBT: Button
 
+    var stepNum : Int = 0
+    var photoNum : Int = 0
+
 
     var resultLauncher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()){ result ->
 
@@ -122,8 +125,17 @@ class CreateRecipeActivity : AppCompatActivity() {
         }
 
         addBT.setOnClickListener{
-            steps += recipeStep.text.toString() + "-"
-            Toast.makeText(this, "Step Added", Toast.LENGTH_SHORT).show()
+            if(recipeStep.text.toString() == ""){
+                Toast.makeText(this, "Missing Step Instructions", Toast.LENGTH_SHORT).show()
+            }else{
+                if( (stepNum+1) == photoNum){
+                    steps += recipeStep.text.toString() + "-"
+                    stepNum += 1
+                    Toast.makeText(this, "Step Added", Toast.LENGTH_SHORT).show()
+                }else{
+                    Toast.makeText(this, "Missing Step Photo", Toast.LENGTH_SHORT).show()
+                }
+            }
         }
 
         rUpBT.setOnClickListener{
@@ -189,8 +201,13 @@ class CreateRecipeActivity : AppCompatActivity() {
     }
 
     fun takePicture(view: View?){
-        val takePhotoIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
-        resultLauncher.launch(takePhotoIntent)
+        if((photoNum+1) > (stepNum+1)){
+            Toast.makeText(this, "Only one photo per step", Toast.LENGTH_SHORT).show()
+        }else{
+            photoNum += 1
+            val takePhotoIntent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
+            resultLauncher.launch(takePhotoIntent)
+        }
     }
 
 
